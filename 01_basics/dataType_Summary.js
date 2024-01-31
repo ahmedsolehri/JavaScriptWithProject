@@ -35,3 +35,30 @@ const myFunction = function(){
 console.log(typeof anotherId);
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+// **********
+
+// Stack (Primitive) give varibale copy in return
+// Heap (Non-Primitive) give reference, changedin orignl value
+
+let myYoutubename = "Ahmedsolehri"
+
+let anotherName = myYoutubename
+anotherName = "coffee"
+
+console.log(myYoutubename)
+
+console.log(anotherName)
+
+
+let userOne = {
+    email: "ahmed@gamil.com",
+    id: 200185
+}
+
+let userTwo = userOne
+
+userTwo.email = "solehri@outlook.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
