@@ -10,11 +10,37 @@ const myArray2 = new Array(12,3,3,5,7)
 
 // myArray.pop()
 // myArray.unshift(101)
-myArray.shift()
-console.log(myArray);
-myArray.shift()
-console.log(myArray);
+// myArray.shift()
+// console.log(myArray);
+// myArray.shift()
+// // console.log(myArray);
 
+
+// console.log(myArray.includes(1000));
+
+
+// const newArray = myArray.join()
+
+// console.log(myArray);
+// console.log(typeof newArray);
+
+
+// slice, splice
+
+console.log("A ", myArray);
+
+const mynn1 = myArray.splice(1, 3)
+console.log(mynn1);
+
+console.log("B ", myArray);
+
+
+const mynn2 = myArray.slice(1, 3)
+console.log(mynn2);
+
+console.log("C ", myArray);
+
+//splice mein jo part jo splice kiya hai wo he original array sy cut ho jata hai
 
 
 // array shallow copy bnata hai
