@@ -18,7 +18,7 @@ let state;
 // bigint
 // string => ""
 // boolean => true/false
-// null => standalone value // jecy temp nahi mil rha to ap ko server sy to ap null bhaijy gein,, 0 bhi aik temp hai
+// null => standalone value // jecy temp nahi mil rha to ap ko server sy to ap null bhaijy gein,, 0 bhi aik tempreture hai
 // undefined => 
 // symbol => unique // sysmbol use when use react
 
