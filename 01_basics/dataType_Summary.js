@@ -9,6 +9,7 @@ const isLoggedIn = false
 const outsideTemp = null
 let userEmail;
 
+// symbol in used for uniqueness of data
 const id = Symbol('123')
 const anotherId = Symbol('123')
 
@@ -39,7 +40,10 @@ console.log(typeof anotherId);
 // **********
 
 // Stack (Primitive) give varibale copy in return
-// Heap (Non-Primitive) give reference, changedin orignl value
+/* 
+    stack mein copy diya jata hai. jo copy mein changes hota hai wo oroginal mein change nahi hota
+ */
+// Heap (Non-Primitive) give reference, changed in orignl value
 
 let myYoutubename = "Ahmedsolehri"
 
