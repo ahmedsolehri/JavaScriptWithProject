@@ -2,6 +2,11 @@
 
 //  7 types : String, Number, Boolearn, null, undefined, Symbol, BigInt
 
+/*
+Primitive mein copy diya jata hai 
+aur changes copy mein hota hai original mein nahi
+*/
+
 const score = 100
 const scoreValue = 100.3
 
@@ -29,6 +34,7 @@ let myObj = {
     age: 22,
 }
 
+// function ad variable
 const myFunction = function(){
     console.log("Hello world");
 }
